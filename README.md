@@ -20,14 +20,14 @@
 1. 建立虛擬環境並安裝依賴
 
 ```bash
-python -m venv venv
-source venv/bin/activate   # macOS/Linux
-venv\Scripts\activate      # Windows
+python -m venv Flask_api
+source Flask_api/bin/activate   # macOS/Linux
+Flask_api\Scripts\activate      # Windows
 pip install -r requirements.txt
 ```
 
 2. 執行程式
-python app.py
+python Flask.py
 
 3. 使用 API
 預設跑在 http://127.0.0.1:5000
