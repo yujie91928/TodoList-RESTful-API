@@ -1,4 +1,4 @@
-# Flask Todo API
+# Flask Todo List API
 
 一個使用 Python Flask 與 SQLite 實作的簡易代辦事項（Todo List）RESTful API。
 
@@ -61,4 +61,5 @@ Content-Type: application/json
 - 刪除代辦事項
 ```bash
 DELETE /todos/<代辦事項id>
+
 ```
